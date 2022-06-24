@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Logo } from "../components/Logo"
 import { Footer } from "../components/Footer"
+import code_mockup from "../assets/code-mockup.png"
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
     mutation CreateSubscriber($name: String!, $email: String!) {
@@ -35,7 +36,7 @@ export const Subscribe = () => {
     }
 
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center before:content-[''] before:absolute before:w-full before:h-[60vh] before:bg-no-repeat before:bg-top before:bg-react before:mt-2.5">
+        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center before:content-[''] before:absolute before:w-full before:h-[100vh] before:bg-no-repeat before:bg-top before:bg-react before:mt-2.5">
 
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto lg:flex-col">
                 <div className="max-w-[640px] lg:flex flex-col items-center lg:text-center px-6">
@@ -79,7 +80,7 @@ export const Subscribe = () => {
                 </div>
             </div>
 
-            <img src="/src/assets/code-mockup.png" className="w-[1216px] lg:px-1.5" alt=""/>
+            <img src={code_mockup} className="w-[1216px] lg:px-1.5" alt=""/>
             <Footer variant={"secondary"} />
         </div>
     )
