@@ -36,7 +36,7 @@ export const Subscribe = () => {
     }
 
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center before:content-[''] before:absolute before:w-full before:h-[100vh] before:bg-no-repeat before:bg-top before:bg-react before:mt-2.5">
+        <div className="flex justify-between min-h-screen bg-blur bg-cover bg-no-repeat flex-col items-center before:content-[''] before:absolute before:w-full before:h-[100vh] before:bg-no-repeat before:bg-top before:bg-react before:mt-2.5">
 
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto lg:flex-col">
                 <div className="max-w-[640px] lg:flex flex-col items-center lg:text-center px-6">
@@ -80,7 +80,7 @@ export const Subscribe = () => {
                 </div>
             </div>
 
-            <img src={code_mockup} className="w-[1216px] lg:px-1.5" alt=""/>
+            <img src={code_mockup} className="lg:px-1.5" alt=""/>
             <Footer variant={"secondary"} />
         </div>
     )
