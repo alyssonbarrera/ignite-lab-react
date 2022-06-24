@@ -2,10 +2,15 @@ import { CaretLeft, CheckCircle } from 'phosphor-react'
 import { Lock } from 'phosphor-react'
 import { isPast, format } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
-import { Link, useLocation, useParams } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import classNames from 'classnames'
+import { useDispatch, useSelector } from 'react-redux'
+import { menuOpen }  from '../../redux/action'
 
 export const Lesson = ({ title, slug, availableAt, type }) => {
+
+    const dispatch = useDispatch()
+    const menuOpened = useSelector(state => state)
 
     const location = useLocation()
     const lessonSlug = location.pathname.split('/')[3]
@@ -18,7 +23,7 @@ export const Lesson = ({ title, slug, availableAt, type }) => {
     const URL = `/event/lesson/${slug}`
 
     return(
-        <Link to={isLessonAvailable && URL} className={` relative group ${!isLessonAvailable ? "pointer-events-none" : "pointer-events-auto"}`}>
+        <Link to={isLessonAvailable && URL} className={` relative group ${!isLessonAvailable ? "pointer-events-none" : "pointer-events-auto"}`} onClick={() => { menuOpened && setTimeout(() => dispatch(menuOpen(false)), 100)}}>
             {
                 isActiveLesson && <CaretLeft size={32} weight="fill" className='text-green-500 absolute top-2/4 -left-[1.2rem]' />
             }
