@@ -25,9 +25,10 @@ The construction was made based on the design made available through the figma. 
     <img height="500px" src="./assets/print-mobile-3.jpeg" alt="Print da página de inscrição rodando na web na versão mobile"/>
   </div>
 </div>
+
+## Video
+https://user-images.githubusercontent.com/86618257/175751818-d474a875-eaab-4efd-b975-c1676b2be96a.mp4
   
 ## Stack
 
 <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/> <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/> <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /> <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
-          
-          
