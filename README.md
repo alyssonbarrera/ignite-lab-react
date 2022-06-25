@@ -15,11 +15,15 @@ The construction was made based on the design made available through the figma. 
 ## Screenshots
 
 <div align="center">
-  <img width="500px" src="./assets/print-1.jpeg" alt="Print da página de inscrição rodando na web na versão desktop"/>
-  <img width="500px" src="./assets/print-2.jpeg" alt="Print da página de aula rodando na web na versão desktop"/>
-  <img height="281px" src="./assets/print-mobile-1.jpeg" alt="Print da página de aula rodando na web na versão mobile"/>
-  <img height="281px" src="./assets/print-mobile-2.jpeg" alt="Print do menu expandido da página de aula rodando na web na versão mobile"/>
-  <img height="281px" src="./assets/print-mobile-3.jpeg" alt="Print da página de inscrição rodando na web na versão mobile"/>
+  <div>
+    <img width="600px" src="./assets/print-1.jpeg" alt="Print da página de inscrição rodando na web na versão desktop"/>
+    <img width="600px" src="./assets/print-2.jpeg" alt="Print da página de aula rodando na web na versão desktop"/>
+  </div>
+  <div>
+    <img height="500px" src="./assets/print-mobile-1.jpeg" alt="Print da página de aula rodando na web na versão mobile"/>
+    <img height="500px" src="./assets/print-mobile-2.jpeg" alt="Print do menu expandido da página de aula rodando na web na versão mobile"/>
+    <img height="500px" src="./assets/print-mobile-3.jpeg" alt="Print da página de inscrição rodando na web na versão mobile"/>
+  </div>
 </div>
   
 ## Stack
