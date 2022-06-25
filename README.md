@@ -28,11 +28,11 @@ The construction was made based on the design made available through the figma. 
 
 ## Videos
 
-https://user-images.githubusercontent.com/86618257/175756993-b1aa635c-ac67-4be9-a90a-6c6015f7df1e.mp4
+https://user-images.githubusercontent.com/86618257/175783061-aa7d787d-1ccb-457a-bce8-53b5da2ed481.mp4
 
 <div align="center">
 
-https://user-images.githubusercontent.com/86618257/175757104-031e307f-9226-41b3-a0c5-0d08775094d7.mp4
+https://user-images.githubusercontent.com/86618257/175783065-85a0a106-81ac-4612-9d22-3d8b9d07ccf9.mp4
 
 </div>
   
