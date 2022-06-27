@@ -20,9 +20,9 @@ The construction was made based on the design made available through the figma. 
     <img width="600px" src="./assets/print-2.jpeg" alt="Print da página de aula rodando na web na versão desktop"/>
   </div>
   <div>
-    <img height="500px" src="./assets/print-mobile-1.jpeg" alt="Print da página de aula rodando na web na versão mobile"/>
-    <img height="500px" src="./assets/print-mobile-2.jpeg" alt="Print do menu expandido da página de aula rodando na web na versão mobile"/>
-    <img height="500px" src="./assets/print-mobile-3.jpeg" alt="Print da página de inscrição rodando na web na versão mobile"/>
+    <img height="545px" src="./assets/print-mobile-1.jpeg" alt="Print da página de aula rodando na web na versão mobile"/>
+    <img height="545px" src="./assets/print-mobile-2.jpeg" alt="Print do menu expandido da página de aula rodando na web na versão mobile"/>
+    <img height="545px" src="./assets/print-mobile-3.jpeg" alt="Print da página de inscrição rodando na web na versão mobile"/>
   </div>
 </div>
 
